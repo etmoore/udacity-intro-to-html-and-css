@@ -10,8 +10,14 @@
     box-sizing: border-box;
 }
 
+.title {
+  background-color: #33bebe;
+  color: white;
+  font-family: Arial;
+}
+
 .app {
- display: flex; 
+ display: flex;
 }
 
 .screenshot {
@@ -20,4 +26,8 @@
 
 .description {
   max-width: 705px;
+}
+
+.text {
+  margin-left: 25px;  
 }
