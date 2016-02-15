@@ -1,8 +1,12 @@
 * {
   border: 1px solid red !important;
-}
-* {
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    background-color: blue;
+  }
 }
 
 /*grid system*/
