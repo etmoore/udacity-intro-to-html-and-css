@@ -11,7 +11,7 @@
 }
 
 header {
-  border-bottom: 2px solid #aaa;
+  border-bottom: 2px solid #BCBBBB;
 }
 
 .avatar img {
@@ -34,6 +34,29 @@ header {
 .headline p {
   margin-top: 0px;
   font-weight: 700;
+}
+
+h2 {
+  color: #aaa;
+  font-weight: 300;
+}
+
+.featured-projects {
+  text-align: center;
+}
+
+.project {
+  height: 250px;
+  position: relative;
+}
+
+.project h3 {
+  position: absolute;
+  bottom: 0;
+}
+
+.project img {
+  max-width: 100%;
 }
 
 /*grid system*/
