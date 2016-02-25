@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
@@ -17,36 +17,46 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="wrapper">
+    <div class="container">
 
       <header class="row">
-        <div class="avatar col-6">
+        <div class="avatar col-xs-6">
           <img src="images/avatar.png" alt="logo">
         </div>
-        <div class="headline col-6">
+        <div class="headline col-xs-6">
           <h1>EVAN MOORE</h1>
           <p>FRONT-END DEVELOPER</p>
         </div>
       </header>
 
-      <main>
-      <img class="col-12" src="images/screen-shot.png" alt="banner image">
-
-      <h2>Featured Work</h2>
-      <div class="featured-projects row">
-        <div class="project col-4">
-          <img src="images/gcamp.png" alt="">
-          <h3>GCAMP</h3>
-        </div>
-        <div class="project col-4">
-          <img src="images/treasure.png" alt="">
-          <h3>TREASURE</h3>
-        </div>
-        <div class="project col-4">
-          <img src="images/map.png" alt="">
-          <h3>NEIGHBORHOOD</h3>
+      <div class="row">
+        <div class="col-xs-12">
+          <hr>
         </div>
       </div>
+
+      <main>
+        <div class="row">
+          <img class="col-xs-12" src="images/screen-shot.png" alt="banner image">
+        </div>
+
+        <h2>Featured Work</h2>
+        <div class="featured-projects row">
+          <div class="project col-xs-4">
+            <img src="images/gcamp.png" alt="">
+          </div>
+          <div class="project col-xs-4">
+            <img src="images/treasure.png" alt="">
+          </div>
+          <div class="project col-xs-4">
+            <img src="images/neighborhood.jpg" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <h3 class="col-xs-4">GCAMP</h3>
+          <h3 class="col-xs-4">TREASURE</h3>
+          <h3 class="col-xs-4">NEIGHBORHOOD</h3>
+        </div>
       </main>
 
     </div>
